@@ -1,0 +1,12 @@
+C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\bin\Debug\Skills international.exe.config
+C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\bin\Debug\Skills international.exe
+C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\bin\Debug\Skills international.pdb
+C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\obj\Debug\Skills international.csproj.AssemblyReference.cache
+C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\obj\Debug\Skills international.csproj.SuggestedBindingRedirects.cache
+C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\obj\Debug\Skills_international.Login.resources
+C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\obj\Debug\Skills_international.Properties.Resources.resources
+C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\obj\Debug\Skills international.csproj.GenerateResource.cache
+C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\obj\Debug\Skills international.csproj.CoreCompileInputs.cache
+C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\obj\Debug\Skills international.exe
+C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\obj\Debug\Skills international.pdb
+C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\obj\Debug\Skills_international.registration.resources
