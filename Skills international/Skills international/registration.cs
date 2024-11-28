@@ -18,7 +18,7 @@ namespace Skills_international
             InitializeComponent();
         }
 
-        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-LTH7R3F;Initial Catalog=ayodya;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=PASIYA;Initial Catalog=Student;Integrated Security=True;");
 
         private void linkLogOut_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -36,7 +36,7 @@ namespace Skills_international
                 if (no != "New Register")
                 {
                     con.Open();
-                    string query_select = "SELECT * FROM student WHERE regNo =" + no;
+                    string query_select = "SELECT * FROM  Registration WHERE regNo =" + no;
                     SqlCommand cmd = new SqlCommand(query_select, con);
                     SqlDataReader row = cmd.ExecuteReader();
                     while (row.Read())
@@ -96,14 +96,14 @@ namespace Skills_international
             }
             catch (Exception ex)
             {
-                MessageBox.Show("" + ex);
+                MessageBox.Show("" + ex.Message);
             }
         }
 
         private void registration_Load(object sender, EventArgs e)
         {
             con.Open();
-            string query_select = "SELECT * FROM student";
+            string query_select = "SELECT * FROM Registration";
             SqlCommand cmnd = new SqlCommand(query_select, con);
             SqlDataReader row = cmnd.ExecuteReader();
             regNo.Items.Add("New Register");
@@ -140,14 +140,14 @@ namespace Skills_international
                 int conNum = int.Parse(txtConNum.Text);
 
                 con.Open();
-                string query_insert = "INSERT INTO student VALUES('" + firstName + "','" + lastName + "','" + dtpDob.Text + "','" + gender + "','" + address + "','" + email + "'," + mobilePhone + "," + homePhone + ",'" + pName + "','" + nic + "'," + conNum + ")";
+                string query_insert = "INSERT INTO Registration VALUES('" + firstName + "','" + lastName + "','" + dtpDob.Text + "','" + gender + "','" + address + "','" + email + "'," + mobilePhone + "," + homePhone + ",'" + pName + "','" + nic + "'," + conNum + ")";
                 SqlCommand cmnd = new SqlCommand(query_insert, con);
                 cmnd.ExecuteNonQuery();
                 MessageBox.Show("Record added successfully!", "Registered Employee!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show("" + ex);
+                MessageBox.Show("" + ex.Message);
             }
             finally
             {
@@ -187,7 +187,7 @@ namespace Skills_international
                     int conNum = int.Parse(txtConNum.Text);
 
                     con.Open();
-                    string query_insert = "UPDATE student SET firstName = '" + firstName + "',lastName='" + lastName + "',dateOfBirth= '" + dtpDob.Text + "',gender = '" + gender + "',address = '" + address + "',email = '" + email + "',mobileNumber = " + mobilePhone + ",homeNumber = " + homePhone + ",parentName ='" + pName + "',NIC = '" + nic + "',contactNumber = " + conNum + " WHERE regNo = '" + no + "'";
+                    string query_insert = "UPDATE Registration SET firstName = '" + firstName + "',lastName='" + lastName + "',dateOfBirth= '" + dtpDob.Text + "',gender = '" + gender + "',address = '" + address + "',email = '" + email + "',mobilePhone = " + mobilePhone + ",homePhone = " + homePhone + ",parentName ='" + pName + "',NIC = '" + nic + "',contactNo = " + conNum + " WHERE regNo = '" + no + "'";
                     SqlCommand cmnd = new SqlCommand(query_insert, con);
                     cmnd.ExecuteNonQuery();
                     MessageBox.Show("Record Update Successfully!", "Update Employee", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -195,7 +195,7 @@ namespace Skills_international
             }
             catch (Exception ex)
             {
-                MessageBox.Show("" + ex);
+                MessageBox.Show("" + ex.Message);
             }
             finally
             {
@@ -228,14 +228,14 @@ namespace Skills_international
         {
             try
             {
-                var result = MessageBox.Show("Are you sure, Do you really want to delete this record...?", "Delet", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                var result = MessageBox.Show("Are you sure, Do you really want to delete this record...?", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                 if (result == DialogResult.Yes)
                 {
                     string no = regNo.Text;
 
                     con.Open();
-                    string query_inset = "DELETE FROM student WHERE regNo = " + no + "";
+                    string query_inset = "DELETE FROM Registration WHERE regNo = " + no + "";
                     SqlCommand cmnd = new SqlCommand(query_inset, con);
                     cmnd.ExecuteNonQuery();
                     MessageBox.Show("Record deleted successfully!", "Deleted Employee", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -247,7 +247,7 @@ namespace Skills_international
             }
             catch (Exception ex)
             {
-                MessageBox.Show("" + ex);
+                MessageBox.Show("" + ex.Message);
             }
             finally
             {

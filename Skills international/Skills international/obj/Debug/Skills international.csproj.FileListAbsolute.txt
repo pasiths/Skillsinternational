@@ -10,3 +10,14 @@ C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\
 C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\obj\Debug\Skills international.exe
 C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\obj\Debug\Skills international.pdb
 C:\Users\PaSiYa\Desktop\New folder\C#\Skills international\Skills international\obj\Debug\Skills_international.registration.resources
+C:\Users\Pasith Senevirathna\Desktop\My Projects\C#\Skillsinternational\Skills international\Skills international\bin\Debug\Skills international.exe.config
+C:\Users\Pasith Senevirathna\Desktop\My Projects\C#\Skillsinternational\Skills international\Skills international\bin\Debug\Skills international.exe
+C:\Users\Pasith Senevirathna\Desktop\My Projects\C#\Skillsinternational\Skills international\Skills international\bin\Debug\Skills international.pdb
+C:\Users\Pasith Senevirathna\Desktop\My Projects\C#\Skillsinternational\Skills international\Skills international\obj\Debug\Skills international.csproj.AssemblyReference.cache
+C:\Users\Pasith Senevirathna\Desktop\My Projects\C#\Skillsinternational\Skills international\Skills international\obj\Debug\Skills_international.Login.resources
+C:\Users\Pasith Senevirathna\Desktop\My Projects\C#\Skillsinternational\Skills international\Skills international\obj\Debug\Skills_international.Properties.Resources.resources
+C:\Users\Pasith Senevirathna\Desktop\My Projects\C#\Skillsinternational\Skills international\Skills international\obj\Debug\Skills_international.registration.resources
+C:\Users\Pasith Senevirathna\Desktop\My Projects\C#\Skillsinternational\Skills international\Skills international\obj\Debug\Skills international.csproj.GenerateResource.cache
+C:\Users\Pasith Senevirathna\Desktop\My Projects\C#\Skillsinternational\Skills international\Skills international\obj\Debug\Skills international.csproj.CoreCompileInputs.cache
+C:\Users\Pasith Senevirathna\Desktop\My Projects\C#\Skillsinternational\Skills international\Skills international\obj\Debug\Skills international.exe
+C:\Users\Pasith Senevirathna\Desktop\My Projects\C#\Skillsinternational\Skills international\Skills international\obj\Debug\Skills international.pdb
