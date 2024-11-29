@@ -53,7 +53,7 @@ namespace Skills_international
                     }
                     else
                     {
-                        MessageBox.Show("Invalid User Type.");
+                        MessageBox.Show("Invalid login credentials, Please check. Username and Password and try again!!!");
                     }
 
                 }
@@ -65,25 +65,6 @@ namespace Skills_international
                     con.Close();
                 }
             }
-
-            //if (txtUsername.Text == "ayodya" && txtPassword.Text == "ayodya456")
-            //{
-            //registration reg = new registration();
-            //this.Hide();
-            //reg.Show();
-
-            //}
-            //else if (txtUsername.Text == "" && txtPassword.Text == "")
-            //{
-            //    MessageBox.Show("Username & Password Is Empty!!!", "Empty", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    txtUsername.Focus();
-
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Invalid login credentials, Please check Username & Password and try again!", "Invalid Login Details", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    txtUsername.Focus();
-            //}
         }
 
         private void btnClear_Click(object sender, EventArgs e)
