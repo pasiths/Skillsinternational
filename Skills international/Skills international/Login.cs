@@ -22,7 +22,6 @@ namespace Skills_international
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
             if (txtUsername.Text == "" && txtPassword.Text == "")
             {
                 MessageBox.Show("Username & Password Is Empty!!!", "Empty", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -47,6 +46,7 @@ namespace Skills_international
 
                     if (dt.Rows.Count > 0)
                     {
+                        MessageBox.Show("Login Successful", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         registration reg = new registration();
                         this.Hide();
                         reg.Show();
@@ -61,7 +61,8 @@ namespace Skills_international
                 {
                     MessageBox.Show(ex.Message);
                 }
-                finally { 
+                finally
+                {
                     con.Close();
                 }
             }
